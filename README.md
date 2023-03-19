@@ -1,6 +1,10 @@
 <sub>** This work is being done as part of the Course Designing Algorithms and Data Structures **</sub> 
 <h1 align="center">Parking-car</h1>
 <div>
+<a href=""> View forms</a></br>
+<a href=""> View export</a>
+</div>
+<div>
   <h3> &emsp;&emsp;&emsp;Description forms</h3>
 <table>
 <tr><td> № </td><td> Name form </td><td> Description </td></tr>
@@ -17,8 +21,16 @@
   <tr><td> 11 </td><td> WriteArrival </td><td> Arrival Data Recording/Editing Form (Data)</td></tr>
   <tr><td> 12 </td><td> WriteOut </td><td> Form of recording/editing of departure data (data)</td></tr>
   <tr><td> 13 </td><td> AddRecordAboutOwner </td><td> Dialog form for entering data into the database (data)</td></tr>
+  <tr><td> 14 </td><td> ExportDatainFile </td><td> Dialog form for export data to HTML/Excel </td></tr>
 </table>
+<p> *This project working with extentsion : <strong> CRYSTAL REPORTS </strong>*</p>
 </div>
+<h3>Project theme : Car garage: owner list, car list, list guard, car arrival and out magazine </h3>
+<p>The program works with MS SQL Server database. The functionality of the program is as follows:</br>
+<li>Adding / Removing records about owners, cars</li>
+<li>Adding / Removing operational data on the arrival / departure of the car from the garage</li>
+<li>Create a report in HTML or Excel form or in Crystal Reports</li>
+</p>
 <h3> View forms</h3>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/71569051/226197440-99e57fd2-7142-4ce8-b9ff-a25605c91306.png" alt="#1">
@@ -47,4 +59,12 @@
 </br></br>
 <img src="https://user-images.githubusercontent.com/71569051/226197809-f2814f33-5712-412d-a94f-b5262051baff.png" alt="#13">
 </br></br>
+<img src="https://user-images.githubusercontent.com/71569051/226198429-10b19cbd-db08-4f02-90fe-1ea8bba1f2d6.png" alt="#14">
+</div>
+<h4> Result export </h4>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/71569051/226198480-ad058d2c-d3ef-4375-9cac-5cff45fba7af.png" alt="HTML">
+<img src="https://user-images.githubusercontent.com/71569051/226198474-fe427774-d277-42a9-8e3f-0120ff47ebc6.png" alt="Excel">
+<img src="https://user-images.githubusercontent.com/71569051/226198489-6072d12f-c345-4b56-a424-8e42fc984cbe.png" alt="CrystalR1">
+<img src="https://user-images.githubusercontent.com/71569051/226198512-b0e7e9af-e75c-47ea-b1a5-4de6e393fe53.png" alt="CrystalR2">
 </div>

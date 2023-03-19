@@ -1,4 +1,5 @@
-<sub>** This work is being done as part of the Course Designing Algorithms and Data Structures **</sub> 
+<sub>** This work is being done as part of the Course Designing Algorithms and Data Structures **</sub></br>
+<sub>** This project start -.02.2022 end - .04.2022 **</sub>
 <h1 align="center">Parking-car</h1>
 <div>
 <a href="https://github.com/StrongerProgrammer7/Parking-car#project-theme--car-garage-owner-list-car-list-list-guard-car-arrival-and-out-magazine-"> About project </a></br>
@@ -62,7 +63,7 @@
 </br></br>
 <img src="https://user-images.githubusercontent.com/71569051/226198429-10b19cbd-db08-4f02-90fe-1ea8bba1f2d6.png" alt="#14">
 </div>
-<h4> Result export </h4>
+<h3> Result export </h3>
 <div align="center">
 <img src="https://user-images.githubusercontent.com/71569051/226198480-ad058d2c-d3ef-4375-9cac-5cff45fba7af.png" alt="HTML">
 <img src="https://user-images.githubusercontent.com/71569051/226198474-fe427774-d277-42a9-8e3f-0120ff47ebc6.png" alt="Excel">

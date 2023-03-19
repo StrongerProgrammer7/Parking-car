@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E02B968D-8E70-4A6E-A169-901D3179D266}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Autobase</RootNamespace>
+    <AssemblyName>Autobase</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRecordF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRecordF.Designer.cs">
+      <DependentUpon>AddRecordF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutobaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AutobaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Car.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car.Designer.cs">
+      <DependentUpon>Car.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autobase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autobase.Designer.cs">
+      <DependentUpon>Autobase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crp_DailyTrips.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crp_DailyTrips.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRP_dayTrips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRP_dayTrips.Designer.cs">
+      <DependentUpon>CRP_dayTrips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRP_travelL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRP_travelL.Designer.cs">
+      <DependentUpon>CRP_travelL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crp_travelList.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crp_travelList.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Driver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver.Designer.cs">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trip.Designer.cs">
+      <DependentUpon>Trip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WriteData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WriteData.Designer.cs">
+      <DependentUpon>WriteData.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRecordF.resx">
+      <DependentUpon>AddRecordF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car.resx">
+      <DependentUpon>Car.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autobase.resx">
+      <DependentUpon>Autobase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crp_DailyTrips.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crp_DailyTrips.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRP_dayTrips.resx">
+      <DependentUpon>CRP_dayTrips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRP_travelL.resx">
+      <DependentUpon>CRP_travelL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crp_travelList.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crp_travelList.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver.resx">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trip.resx">
+      <DependentUpon>Trip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WriteData.resx">
+      <DependentUpon>WriteData.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AutobaseDataSet.xsc">
+      <DependentUpon>AutobaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AutobaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AutobaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AutobaseDataSet.xss">
+      <DependentUpon>AutobaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
